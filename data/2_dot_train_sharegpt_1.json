@@ -1,0 +1,32 @@
+[
+  {
+    "messages": [
+      {
+        "content": "<image>Click on the red square.",
+        "role": "user"
+      },
+      {
+        "content": "click:1332,575",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/michael/ai/projects/computer_agent/data/2_dot/4896.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>Click on the red square.",
+        "role": "user"
+      },
+      {
+        "content": "click:1332,575",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/home/michael/ai/projects/computer_agent/data/2_dot/4896.png"
+    ]
+  }  
+]
