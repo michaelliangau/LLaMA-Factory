@@ -1,4 +1,18 @@
 {
+  "computer_agent_train": {
+    "file_name": "computer_agent_train_sharegpt.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+  "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+},
   "2_dot_sharegpt": {
       "file_name": "2_dot_train_sharegpt.json",
       "formatting": "sharegpt",

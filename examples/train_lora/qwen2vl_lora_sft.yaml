@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: Qwen/Qwen2-VL-2b-Instruct
+model_name_or_path: Qwen/Qwen2-VL-7b-Instruct
 
 ### method
 stage: sft
@@ -8,7 +8,7 @@ finetuning_type: lora
 lora_target: all
 
 ### dataset
-dataset: 2_dot_sharegpt  # video: mllm_video_demo
+dataset: computer_agent_train  # video: mllm_video_demo
 template: qwen2_vl
 cutoff_len: 1024
 max_samples: 1000
@@ -16,9 +16,9 @@ overwrite_cache: true
 preprocessing_num_workers: 12
 
 ### output
-output_dir: results/qwen2_vl-2b
+output_dir: results/qwen2_vl-7b-computer_agent
 logging_steps: 10
-save_steps: 500
+save_steps: 50
 plot_loss: true
 overwrite_output_dir: true
 
@@ -36,4 +36,4 @@ ddp_timeout: 180000000
 val_size: 0.1
 per_device_eval_batch_size: 32
 eval_strategy: steps
-eval_steps: 100
+eval_steps: 50
